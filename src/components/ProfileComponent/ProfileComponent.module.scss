@@ -1,0 +1,51 @@
+.ProfileComponent {
+	margin: 7em 7em 15em 5em;
+	.BioContainer {
+		margin: auto;
+		padding: 0em 5em 0em 5em;
+		transition: transform 0.2s;
+		.BioTitle {
+			font-size: 40px;
+			font-weight: 900;
+			margin-bottom: 1.5em;
+		}
+		.Bio {
+			text-align: justify;
+			font-size: 20px;
+			line-height: 1.35em;
+		}
+	}
+	.CarouselContainer {
+		margin: auto;
+		border-radius: 15px;
+		overflow: hidden;
+		box-shadow: 5px 5px;
+		transition: transform 0.2s;
+		.Carousel {
+			overflow: hidden;
+			width: 100%;
+			height: 100%;
+			max-height: 800px;
+			background-color: rgb(229, 229, 229);
+			border-radius: 15px;
+			box-shadow: 0.5px 0.5px 0.5px 0.5px grey;
+
+			button {
+				background-color: #000 !important;
+				&:hover {
+					background: #000 !important;
+				}
+			}
+			button {
+				background-color: #000;
+				&:hover {
+					background-color: #000;
+				}
+			}
+			img {
+				width: 100%;
+				margin: auto;
+			}
+		}
+	}
+}
